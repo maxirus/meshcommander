@@ -3,12 +3,6 @@ FROM node:16.13.0-buster-slim
 ENV DEBIAN_FRONTEND noninteractive
 ARG MC_VERSION="0.9.1-a"
 
-# RUN apt-get -qy update \
-#     && apt-get -qy dist-upgrade \
-#     && apt-get -qy install unzip \
-#     && apt-get -y clean \
-#     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
 # https://www.npmjs.com/package/meshcommander
 RUN mkdir /meshcommander \
     && cd /meshcommander \
