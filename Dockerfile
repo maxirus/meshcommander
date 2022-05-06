@@ -1,9 +1,9 @@
-FROM node:16.13.0-buster-slim
+FROM node:16.15.0-buster-slim
 
 ENV DEBIAN_FRONTEND="noninteractive" \
     NODE_ENV="production"
 
-ARG MC_VERSION="0.9.1-a"
+ARG MC_VERSION="0.9.5-a"
 
 # https://www.npmjs.com/package/meshcommander
 RUN apt-get update && apt-get install dumb-init && \

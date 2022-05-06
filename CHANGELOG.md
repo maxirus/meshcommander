@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.5] - 2022-05-06
+### Updated
+- MeshCommand to `v0.9.5`
+- node to `v16.15.0`
+- GitHub Actions
+
 ## [0.9.1-1] - 2021-11-15
 ### Fixed
 - Run as `node` instead of `root`
